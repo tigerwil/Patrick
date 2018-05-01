@@ -13,7 +13,7 @@ namespace Patrick.Controllers
 {
     public class HomeController : Controller
     {
-        //mwilliams
+        //mwilliams: edited this code
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         public HomeController(
