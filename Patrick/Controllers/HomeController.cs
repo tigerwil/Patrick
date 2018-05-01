@@ -16,6 +16,8 @@ namespace Patrick.Controllers
         //mwilliams: edited this code
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
+
+        //Constructor
         public HomeController(
            UserManager<ApplicationUser> userManager,
            SignInManager<ApplicationUser> signInManager)
